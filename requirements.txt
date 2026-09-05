@@ -1,0 +1,15 @@
+# 抖音千川/抖店自动化数据分析与飞书卡片推送系统 - 依赖清单
+# 安装：pip install -r requirements.txt
+
+# HTTP 请求（飞书 Webhook 推送）
+requests>=2.31.0,<3.0.0
+
+# 从 .env 文件加载环境变量
+python-dotenv>=1.0.0,<2.0.0
+
+# 定时任务调度
+APScheduler>=3.10.4,<4.0.0
+
+# 读取影刀导出的 Excel
+pandas>=2.0.0,<3.0.0
+openpyxl>=3.1.0,<4.0.0
